@@ -19,20 +19,20 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 	
 	<!-- General -->
-	<link rel="stylesheet" href="../resources/css/global.css" />
-	<script src="../resources/js/car.js"></script>
+	<link rel="stylesheet" href="${pageContext.servletContext.contextPath}/resources/css/global.css" />
+	<script src="${pageContext.servletContext.contextPath}/resources/js/car.js"></script>
 </head>
 <body>
 	<nav class="navbar navbar-light " id="header">
 	 <a class="navbar-brand" href="#">
-		<img  src="../resources/images/delorean.png"/>
+		<img  src="${pageContext.servletContext.contextPath}/resources/images/delorean.png"/>
 	 </a>
 	  <ul class="nav nav-pills">
 	    <li class="nav-item">
-	      <a class="nav-link" href="./clients.jsp">Client List</a>
+	      <a class="nav-link" href="./clients">Client List</a>
 	    </li>
 	    <li class="nav-item">
-	      <a class="nav-link" href="./cars.jsp">Car List</a>
+	      <a class="nav-link" href="./cars">Car List</a>
 	    </li>
 	   </ul>
 		<ul class="nav navbar-nav navbar-right">

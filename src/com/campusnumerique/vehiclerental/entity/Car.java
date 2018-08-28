@@ -17,6 +17,8 @@ public class Car implements Serializable{
 	private Double kilometerPrice;
 	
 	
+	public Car() {}
+	
 	public Car(int id, String brand, String model, String plateNumber, String color, int horsePower, Double reservationPrice, Double kilometerPrice){
 		setId(id);
 		setBrand(brand);

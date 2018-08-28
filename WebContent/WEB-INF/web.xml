@@ -38,5 +38,15 @@
 		<url-pattern>/clients</url-pattern>
 	</servlet-mapping>
 
+<!--Car -->
+	<servlet>
+		<servlet-name>cars</servlet-name>
+		<jsp-file>/pages/cars.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>cars</servlet-name>
+		<url-pattern>/cars</url-pattern>
+	</servlet-mapping>
+
 
 </web-app>

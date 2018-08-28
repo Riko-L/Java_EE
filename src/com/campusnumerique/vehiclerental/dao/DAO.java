@@ -9,7 +9,7 @@ import java.util.List;
 public abstract class DAO<T> {
   protected Connection connection = null;
   private String dbType = "mysql";
-  private String url = "localhost:3306";
+  private String url = "192.168.88.204:3306";
   private String dbName = "vehiclerental";
   private String user = "root";
   private String password = "root";
