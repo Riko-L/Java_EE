@@ -40,6 +40,7 @@
 			<li>User Connected: <%= client.getLogin() %></li>
 		</ul>
 	</nav>
+	<br/>
 	<div class="container" id="content">
 		<div class="row">
 			<h2>Client List</h2>

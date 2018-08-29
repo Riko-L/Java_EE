@@ -9,17 +9,18 @@ import java.util.List;
 public abstract class DAO<T> {
   protected Connection connection = null;
   private String dbType = "mysql";
-  private String url = "192.168.88.204:3306";
+  private String url = "ledev.pw:3306";
   private String dbName = "vehiclerental";
-  private String user = "root";
-  private String password = "root";
+  private String user = "campus";
+  private String password = "campus";
   private String connectionUrl=null;
    
   public DAO(){
 	  buildConnectionUrl();
 
 	  try {
-	  	  Class.forName("com.mysql.cj.jdbc.Driver");
+	  	 Class.forName("com.mysql.cj.jdbc.Driver");
+	  	 
 	  	  System.out.println(connectionUrl);
 		  connection =
 		       DriverManager.getConnection(connectionUrl);

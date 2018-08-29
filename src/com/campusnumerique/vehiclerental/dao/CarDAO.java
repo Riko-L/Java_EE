@@ -93,7 +93,7 @@ public class CarDAO extends DAO<Car>{
 						result.getDouble("reservationPrice"),
 						result.getDouble("kilometerPrice")); 
 				
-				cars.put(car);
+				cars.put(car.getInfos());
 			}
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block

@@ -6,6 +6,7 @@ function buildLines(cars){
 		$tr=$('<tr>');
 		$plateNumber=$('<td>');
 		$brand=$('<td>');
+		$model=$('<td>');
 		$horsePower=$('<td>');
 		$color=$('<td>');
 		$reservationPrice=$('<td>');
@@ -13,6 +14,7 @@ function buildLines(cars){
 		
 		$plateNumber.html(car.plateNumber);
 		$brand.html(car.brand);
+		$model.html(car.model);
 		$horsePower.html(car.horsePower);
 		$color.html(car.color);
 		$reservationPrice.html(car.reservationPrice);
@@ -20,6 +22,7 @@ function buildLines(cars){
 		
 		$tr.append($plateNumber);
 		$tr.append($brand);
+		$tr.append($model);
 		$tr.append($horsePower);
 		$tr.append($color);
 		$tr.append($reservationPrice);
